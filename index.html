@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tambola Player Ticket</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<h1>Tambola Player Ticket</h1>
+
+<div id="controls">
+  <label for="ticketCount">Number of Tickets:</label>
+  <select id="ticketCount">
+    <option value="1">1 Ticket</option>
+    <option value="2">2 Tickets</option>
+    <option value="3">3 Tickets</option>
+    <option value="4">4 Tickets</option>
+    <option value="6">6 Tickets</option>
+  </select>
+  <button id="generateTicketsBtn">Generate Tickets</button>
+  <button id="resetTicketsBtn">Reset All</button>
+</div>
+
+<div id="ticketsContainer"></div>
+
+<div id="patternsStatus"></div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
